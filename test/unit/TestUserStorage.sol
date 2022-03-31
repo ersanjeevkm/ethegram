@@ -12,7 +12,7 @@ contract TestUserStorage {
         uint256 _expectedId = 1;
 
         Assert.equal(
-            _storage.createUser("tristan"),
+            _storage.createUser("ether"),
             _expectedId,
             "Should create user with ID 1"
         );
